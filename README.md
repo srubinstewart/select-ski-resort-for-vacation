@@ -1,2 +1,2 @@
 # select-ski-resort-for-vacation
-Helps traveler choose specific resort based on the affordability of airfare
+Multi-agent ski vacation helper that finds reasonable airfares to ski destinations.
