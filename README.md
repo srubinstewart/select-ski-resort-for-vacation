@@ -105,7 +105,29 @@ Key concepts demonstrated:
 - `session.py`  
   Minimal in-memory session helper to remember the home airport per user.
 
-## 5. How to run (once implemented)
+---
+
+## 5. Optional: Using a Real Flight API
+
+This project currently uses **simulated airfare data** so it can run without
+external credentials, API setup, or paid services. This makes the example easy
+to run and keeps the educational focus on multi-agent design rather than
+third-party integrations.
+
+However, the code has been intentionally structured so the airfare tool can be
+replaced with a **live flight search API** (e.g., via RapidAPI services such as
+Skyscanner or Flights Scraper).
+
+If extending the project:
+
+1. Update the logic inside `get_price_for_route()` in `tools.py` to call a real flight API endpoint.
+2. Store your API key in an environment variable (never in GitHub), for example:
+
+   ```bash
+   export FLIGHT_API_KEY="your_key_here"
+
+
+## 6. How to run (once implemented)
 
 1. Install dependencies (for example):
 
