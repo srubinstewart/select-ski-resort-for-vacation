@@ -29,13 +29,18 @@ def get_sample_fares(origin: str, start_date: str, end_date: str) -> List[Flight
 
     # You can add or change airports anytime.
     sample_destinations = {
-        "SLC": ("Utah resorts: Snowbird, Alta, Park City", 220),
-        "RNO": ("Lake Tahoe region: Northstar, Heavenly, Palisades", 260),
-        "JAC": ("Jackson Hole Mountain Resort", 420),
-        "EGE": ("Vail & Beaver Creek", 380),
-        "YVR": ("Whistler/Blackcomb (drive from Vancouver)", 310),
-        "BZN": ("Big Sky, Montana", 360),
-    }
+    "SLC": ("Utah resorts: Snowbird, Alta, Park City, Deer Valley", 220),
+    "RNO": ("Lake Tahoe resorts: Northstar, Heavenly, Palisades Tahoe", 260),
+    "JAC": ("Jackson Hole Mountain Resort", 420),
+    "EGE": ("Vail & Beaver Creek", 380),
+    "YVR": ("Whistler/Blackcomb (drive from Vancouver)", 310),
+    "BZN": ("Big Sky, Montana", 360),
+    "MMH": ("Mammoth Mountain, CA", 340),
+    "MTJ": ("Telluride Ski Resort (Telluride access via Montrose)", 410),
+    "BTV": ("Killington & Stowe, Vermont", 290),
+    "PWM": ("Sunday River & Sugarloaf, Maine", 280)
+}
+
 
     results = []
 
